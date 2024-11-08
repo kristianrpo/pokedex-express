@@ -2,17 +2,16 @@ const PokeneaUtil = require("../utils/pokeneaUtil")
 const PokeneaPresenter = require("../presenters/pokeneaPresenter")
 
 class PokeneaController {
-  constructor() {
-    this.pokeneas = PokeneaUtil.loadPokeneas()
-  }
   getBasicInfo(req, res) {
+    pokeneas = PokeneaUtil.loadPokeneas()
     const randomPokenea =
-      this.pokeneas[Math.floor(Math.random() * this.pokeneas.length)]
+      this.pokeneas[Math.floor(Math.random() * pokeneas.length)]
     res.json(PokeneaPresenter.basicInfo(randomPokenea))
   }
   getInsight(req, res) {
+    pokeneas = PokeneaUtil.loadPokeneas()
     const randomPokenea =
-      this.pokeneas[Math.floor(Math.random() * this.pokeneas.length)]
+      this.pokeneas[Math.floor(Math.random() * pokeneas.length)]
     res.json(PokeneaPresenter.insightInfo(randomPokenea))
   }
 }

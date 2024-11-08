@@ -4,7 +4,7 @@
     "name": "El Pillo",
     "height": "1.75 m",
     "skill": "Sapeada Rápida",
-    "image": "https://storage.googleapis.com/tu-bucket/el-pillo.jpg",
+    "image": "https://storage.googleapis.com/pokeneas-bucket-teis/PILLO.png",
     "phrase": "Todo bien, todo bien, pero pendiente del parche."
   },
   {
@@ -12,7 +12,7 @@
     "name": "La Tusa",
     "height": "1.60 m",
     "skill": "Llanto Doble",
-    "image": "https://storage.googleapis.com/tu-bucket/la-tusa.jpg",
+    "image": "https://storage.googleapis.com/pokeneas-bucket-teis/TUSA.png",
     "phrase": "Si no me llamas, no te llamo, pero te extraño."
   },
   {
@@ -20,7 +20,7 @@
     "name": "El Bacán",
     "height": "1.80 m",
     "skill": "Parcheadero Pro",
-    "image": "https://storage.googleapis.com/tu-bucket/el-bacan.jpg",
+    "image": "https://storage.googleapis.com/pokeneas-bucket-teis/BACAN.png",
     "phrase": "Uno no se vara, uno inventa."
   },
   {
@@ -28,7 +28,7 @@
     "name": "La Mona",
     "height": "1.65 m",
     "skill": "Mirada de Culebra",
-    "image": "https://storage.googleapis.com/tu-bucket/la-mona.jpg",
+    "image": "https://storage.googleapis.com/pokeneas-bucket-teis/MONA.jpg",
     "phrase": "Ni tan bonito, ni tan feo; lo justo, pa’ gustar."
   },
   {
@@ -36,7 +36,7 @@
     "name": "El Ñero",
     "height": "1.70 m",
     "skill": "Levantamiento de Rumbeo",
-    "image": "https://storage.googleapis.com/tu-bucket/el-ñero.jpg",
+    "image": "https://storage.googleapis.com/pokeneas-bucket-teis/%C3%91ERO.jpg",
     "phrase": "No soy ni rico ni pobre, soy feliz."
   },
   {
@@ -44,7 +44,7 @@
     "name": "La Parcera",
     "height": "1.55 m",
     "skill": "Saca Risa",
-    "image": "https://storage.googleapis.com/tu-bucket/la-parcera.jpg",
+    "image": "https://storage.googleapis.com/pokeneas-bucket-teis/PARCERA.png",
     "phrase": "No joda tanto, venga y disfrute la vida."
   },
   {
@@ -52,7 +52,7 @@
     "name": "El Ñeñe",
     "height": "1.68 m",
     "skill": "Tumbador de Puertas",
-    "image": "https://storage.googleapis.com/tu-bucket/el-neñe.jpg",
+    "image": "https://storage.googleapis.com/pokeneas-bucket-teis/%C3%91E%C3%91E.jpg",
     "phrase": "El que no corre, vuela."
   },
   {
@@ -60,7 +60,7 @@
     "name": "La Ñata",
     "height": "1.58 m",
     "skill": "Corte de Caja",
-    "image": "https://storage.googleapis.com/tu-bucket/la-ñata.jpg",
+    "image": "https://storage.googleapis.com/pokeneas-bucket-teis/%C3%91ATA.jpg",
     "phrase": "No hay mal que por bien no venga."
   },
   {
@@ -68,7 +68,7 @@
     "name": "El Parche",
     "height": "1.72 m",
     "skill": "Hacer Amigos",
-    "image": "https://storage.googleapis.com/tu-bucket/el-parche.jpg",
+    "image": "https://storage.googleapis.com/pokeneas-bucket-teis/PARCHE.jpg",
     "phrase": "La vida es pa' gozarla, no pa' llorarla."
   },
   {
@@ -76,7 +76,7 @@
     "name": "La Cucha",
     "height": "1.63 m",
     "skill": "Regaña y Abraza",
-    "image": "https://storage.googleapis.com/tu-bucket/la-cucha.jpg",
+    "image": "https://storage.googleapis.com/pokeneas-bucket-teis/CUCHA.png",
     "phrase": "No hay nada como el amor de madre."
   }
 ]

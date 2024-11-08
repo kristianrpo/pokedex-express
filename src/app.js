@@ -1,8 +1,8 @@
-const express = require('express');
-const app = express();
+const express = require("express")
+const app = express()
 
-const pokeneaRoutes = require('./routes/pokeneaRoutes');
+const pokeneaRoutes = require("./routes/pokeneaRoutes")
 
-app.use('/api/v1', pokeneaRoutes);
+app.use("/api/v1", pokeneaRoutes)
 
-module.exports = app;
+module.exports = app

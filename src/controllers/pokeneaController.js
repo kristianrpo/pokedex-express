@@ -5,11 +5,11 @@ class PokeneaController{
     constructor() {
         this.pokeneas = PokeneaUtil.loadPokeneas();
     }
-    detail(req, res){
+    getBasicInfo(req, res){
         const randomPokenea = this.pokeneas[Math.floor(Math.random() * this.pokeneas.length)];
         res.json(PokeneaPresenter.basicInfo(randomPokenea));
     }
-    insight(req,res){
+    getInsight(req,res){
         const randomPokenea = this.pokeneas[Math.floor(Math.random() * this.pokeneas.length)];
         res.json(PokeneaPresenter.insightInfo(randomPokenea)); 
     }

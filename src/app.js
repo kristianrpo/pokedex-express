@@ -3,6 +3,6 @@ const app = express();
 
 const pokeneaRoutes = require('./routes/pokeneaRoutes');
 
-app.use('/api/pokeneas', pokeneaRoutes);
+app.use('/api/v1', pokeneaRoutes);
 
 module.exports = app;

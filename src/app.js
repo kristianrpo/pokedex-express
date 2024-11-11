@@ -1,8 +1,14 @@
-const express = require("express")
-const app = express()
+const express = require("express");
+const cors = require("cors");
 
-const pokeneaRoutes = require("./routes/pokeneaRoutes")
+const app = express();
 
-app.use("/api/v1", pokeneaRoutes)
+app.use(cors({ origin: '*' }));
 
-module.exports = app
+app.use(express.json());
+
+const pokeneaRoutes = require("./routes/pokeneaRoutes");
+
+app.use("/api/v1", pokeneaRoutes);
+
+module.exports = app;

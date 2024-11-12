@@ -1,6 +1,6 @@
 const app = require("./app")
-const cors = require('cors');
-app.use(cors({ origin: '*' }));
+const cors = require("cors")
+app.use(cors({ origin: "*" }))
 
 const port = process.env.PORT || 3000
 

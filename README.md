@@ -1,6 +1,9 @@
 # `pokedex-express-backend`
 
-This project is a Pokedex-inspired API developed using Express.js, designed to provide fictional characters called "Pokeneas". Pokeneas are unique creatures from Antioquia, each with distinct attributes such as an ID, name, height, skill, image, and a phrase.
+This project is a Pokedex-inspired API developed using Express.js, designed to
+provide fictional characters called "Pokeneas". Pokeneas are unique creatures
+from Antioquia, each with distinct attributes such as an ID, name, height,
+skill, image, and a phrase.
 
 ## Table of Contents
 
@@ -22,14 +25,21 @@ npm install
 ```
 
 ## Usage
+
 To run the API, use the following command:
+
 ```bash
 npm start
 ```
-By default, the server will start on the port specified in your .env file or port 3000 if not specified.
+
+By default, the server will start on the port specified in your .env file or
+port 3000 if not specified.
 
 ## Endpoints
-The application provides two main GET endpoints for retrieving information about Pokeneas. Each endpoint returns different data formats for a randomly selected Pokenea.
+
+The application provides two main GET endpoints for retrieving information about
+Pokeneas. Each endpoint returns different data formats for a randomly selected
+Pokenea.
 
 ### 1. GET `/api/v1/pokenea/basic-info`
 
@@ -43,9 +53,12 @@ The application provides two main GET endpoints for retrieving information about
     "skill": "Sample Skill",
     "containerId": "abcd1234"
   }
+  ```
 
 ### 2. GET `/api/v1/pokenea/insight`
-- **Description**: Returns detailed insight information about a randomly selected Pokenea, including an image URL and a phrase.
+
+- **Description**: Returns detailed insight information about a randomly
+  selected Pokenea, including an image URL and a phrase.
 - **Response Format**:
   ```json
   {
@@ -53,9 +66,13 @@ The application provides two main GET endpoints for retrieving information about
     "phrase": "Sample Pokenea",
     "containerId": 1.5
   }
+  ```
 
 ## Project Structure
-This API follows a modular architecture to separate different responsibilities and make the codebase easier to manage.
+
+This API follows a modular architecture to separate different responsibilities
+and make the codebase easier to manage.
+
 ```bash
 .
 ├── src
@@ -77,10 +94,13 @@ This API follows a modular architecture to separate different responsibilities a
 ```
 
 ## Environment variables
-This project uses environment variables to manage configuration. Create a .env file in the root directory based on .env.example.
+
+This project uses environment variables to manage configuration. Create a .env
+file in the root directory based on .env.example.
 
 ## Authors
+
 This project was developed by [Kristian Restrepo][1] and [Evelyn Zapata][2].
 
-[1]: https://github.com/kristianrpo 
-[2]: https://github.com/EvelynZapata20 
+[1]: https://github.com/kristianrpo
+[2]: https://github.com/EvelynZapata20
